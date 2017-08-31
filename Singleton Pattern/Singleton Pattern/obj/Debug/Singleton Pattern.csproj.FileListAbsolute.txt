@@ -1,0 +1,11 @@
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\bin\Debug\Singleton Pattern.exe.config
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\bin\Debug\Singleton Pattern.exe
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\bin\Debug\Singleton Pattern.pdb
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\obj\Debug\Singleton Pattern.csprojResolveAssemblyReference.cache
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\obj\Debug\Singleton_Pattern.Form1.resources
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\obj\Debug\Singleton_Pattern.Properties.Resources.resources
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\obj\Debug\Singleton Pattern.csproj.GenerateResource.Cache
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\obj\Debug\Singleton Pattern.exe
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\obj\Debug\Singleton Pattern.pdb
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\bin\Debug\dictionary.txt
+C:\Users\Bo\Desktop\Classes\Design Patterns\VS\Singleton Pattern\Singleton Pattern\obj\Debug\Singleton Pattern.csproj.CoreCompileInputs.cache
