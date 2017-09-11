@@ -176,19 +176,35 @@ namespace Iterator_Pattern
             node.Next.Previous = newNode;
             node.Next = newNode;
         }
-
-
+        
         public void Remove(object value)
         {
             if (count == 0) return;
 
             LinkNode node = Node(value);
 
-            if (node == null) return;//value not found
+            if (node == null)//value not found
+            {
+                return;
+            }
+            else if (node == first)//first node
+            {
+                first = node.Next;
+                first.Previous = null;
+                return;
+            }
+            else if (node == last)//last node
+            {
+                last = last.Previous;
+                last.Next = null;
+                return;
+            }
 
             //move around pointers
-            node.Previous.Next = node.Next;
-            node.Next.Previous = node.Previous;
+            LinkNode prev = node.Previous;
+            LinkNode next = node.Next;
+            prev.Next = next;
+            next.Previous = prev;
         }
 
         public void RemoveAt(int index)
@@ -249,7 +265,6 @@ namespace Iterator_Pattern
             //save time/processing by iterating from closest end
             if (index < count / 2)
             {
-                Console.WriteLine("first indexing used - i: " + index + " count: " + count);
                 LinkNode node = first;
                 int i = 0;
                 while (i < index)
@@ -261,7 +276,6 @@ namespace Iterator_Pattern
             }
             else
             {
-                Console.WriteLine("last indexing used - i: " + index + " count: " + count);
                 LinkNode node = last;
                 int i = count - 1;
                 while (i > index)
@@ -278,9 +292,12 @@ namespace Iterator_Pattern
             LinkNode node = first;
             //goes down list until it finds end or finds a match
             /*
+             * if the node is null, you're at the end. object not found.
+             * 
              * matching deconstructed:
-             * if node is null:
-             *   return true if value is also null
+             * 
+             * if node value is null:
+             *   return true if val is also null
              * else
              *   return true if they are equal (Equals method checks if val is null)
              */
