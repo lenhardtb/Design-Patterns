@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FactoryPattern
+{
+    public class CherryDispenser : Dispenser
+    {
+        public CherryDispenser() : base(new Flavor("Cherry", System.Drawing.Color.Red))
+        {
+
+        }
+    }
+}
